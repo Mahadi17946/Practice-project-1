@@ -1,0 +1,573 @@
+*{
+ margin: 0;
+ padding: 0;
+ outline: 0;
+}
+a{
+  text-decoration: none;
+  
+}
+
+ul,ol{
+  list-style-type: none;
+}
+nav{
+  background-color: rgba(66, 37, 163, 0.891);
+  padding: 10px 0px;
+}
+
+.container{
+  width: 1175px;
+  margin:0 auto ;
+}
+.main-nav{
+  display: flex;
+  align-items: center;
+}
+.logo{
+  width: 175px;
+}
+.menu{
+  width: 1000px;
+  
+}
+.menu ul{
+  
+  display: flex;
+  gap: 15px;
+  justify-content: end;
+}
+.main-nav ul li a{
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  font-weight: 450;
+  border-radius: 15px;
+  transition: all linear .45s ;
+  background-color: rgba(255, 255, 255, 0);
+}
+.main-nav ul li a:hover{
+  
+  color: black;
+}
+/*========= About CSS =======*/
+.a-main{
+  padding: 80px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.a-image{
+  width: 370px;
+}
+.a-image img{
+  border-radius: 12px;
+}
+.a-conten{
+  width: 750px;
+}
+.a-conten h2{
+  color: rgb(67, 37, 163);
+  font-size: 40px;
+  font-family: "Ubuntu", sans-serif;
+}
+.a-conten h4{
+  color: rgb(118, 124, 126);
+  font-size: 25px;
+  padding-bottom: 15px;
+  
+}
+.a-conten p{
+  font-family: "Roboto", sans-serif;
+  line-height: 22px;
+  padding-bottom: 30px;
+  
+}
+.a-conten a {
+    background-color: rgba(66, 37, 163, 0.891);
+    padding:12px 25px;
+    color: #fff;
+    border-radius: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    transition: ease-in-out .4s;
+}
+.a-conten a:hover{
+  background-color:rgba(88, 47, 223, 0.891); 
+  padding: 10px 20px ;
+}
+
+
+
+/*========= Service CSS =======*/
+.service{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0px 120px;
+    padding-bottom: 100px;
+}
+.s-main{
+  width: 250px;
+  background-color: #ddd;
+  padding:20px;
+  text-align: center;
+  border-radius: 10px;
+  transition: ease-in-out .3s;
+  padding-bottom: 40px;
+  
+}
+
+.s-main h2{
+  color: rgb(38, 37, 37);
+  font-size: 22px;
+  font-family: "TikTok Sans", sans-serif;
+  padding-bottom: 20px;
+}
+
+.s-main p{
+  font-family: "Roboto", sans-serif;
+  line-height: 20px;
+  padding-bottom: 30px;
+  font-size: 13px;
+}
+
+.s-main a {
+    background-color: rgba(66, 37, 163, 0.891);
+    padding:12px 25px;
+    color: #fff;
+    border-radius: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    transition: ease-in-out .4s;
+}
+.s-main a:hover{
+  background-color:rgba(88, 47, 223, 0.891); 
+  padding: 10px 20px ;
+}
+
+/*========= Portfolio hadding CSS =======*/
+
+.p-main{
+  padding: 20px 0;
+}
+.p-hadding{
+  width: 350px;
+  margin: 0 auto;
+}
+.p-hadding h2{
+  color: rgba(66, 37, 163, 0.891);
+  font-size: 35px;
+  font-family: "Ubuntu", sans-serif;
+ text-decoration: none;
+ padding-bottom: 10px;
+}
+.p-hadding2{
+   
+   width: 323px;
+   margin: 0 auto;
+}
+.p-hadding2 p{
+  font-family: "Roboto", sans-serif;
+  line-height: 22px;
+  font-size: small;
+  text-align: justify;
+  color: rgb(118, 124, 126);
+}
+.p-hadding3{
+   
+   width: 398px;
+   margin: 0 auto;
+   padding-bottom: 10px;
+}
+.p-hadding3 p{
+  font-family: "Roboto", sans-serif;
+ 
+  font-size: small;
+  text-align: justify;
+  color: rgb(118, 124, 126);
+}
+
+/*======= Portfolio item CSS ======*/
+.port{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+#port{
+  background-color: #eae8e867;
+  border-radius: 20px;
+  padding: 40px 0px;
+  margin-bottom: 80px;
+  
+}
+
+/* ---new item 1--- */
+.p-item{
+  width: 277px;
+  border-radius: 20px;
+  position: relative;
+  
+}
+.p-item img{
+  border-radius: 20px;
+  display: block;
+}
+.p-item1{
+  position: absolute;
+  left: 0;
+  top: 0;color: white;
+  background-color: rgba(0, 0, 0, 0.789);
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition:all linear 0.5s;
+  opacity: 0;
+  transform: scale(0);
+}
+
+.p-item1 h2{
+  color: white;
+  font-size: 25px;
+  font-family: "Ubuntu", sans-serif;
+ padding-bottom: 20px;
+}
+
+.p-item1 a {
+    background-color: rgba(66, 37, 163, 0.891);
+    padding:12px 25px;
+    color: #fff;
+    border-radius: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    transition: ease-in-out .4s;
+}
+.p-item1 a:hover{
+  background-color:rgba(88, 47, 223, 0.891); 
+  padding: 10px 20px ;
+}
+
+.p-item:hover .p-item1{
+  opacity: 1;
+  transform: scale(1);
+}
+/* ---new item 2--- */
+.p-itemi{
+  width: 277px;
+  border-radius: 20px;
+  position: relative;
+  
+}
+.p-itemi img{
+  border-radius: 20px;
+  display: block;
+}
+.p-item2{
+  position: absolute;
+  left: 0;
+  top: 0;color: white;
+  background-color: rgba(0, 0, 0, 0.789);
+  width: 100%;
+  height: 0;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition:all linear 0.5s;
+  opacity: 0;
+  
+}
+
+.p-item2 h2{
+  color: white;
+  font-size: 25px;
+  font-family: "Ubuntu", sans-serif;
+ padding-bottom: 20px;
+}
+
+.p-item2 a {
+    background-color: rgba(66, 37, 163, 0.891);
+    padding:12px 25px;
+    color: #fff;
+    border-radius: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    transition: ease-in-out .4s;
+}
+.p-item2 a:hover{
+  background-color:rgba(88, 47, 223, 0.891); 
+  padding: 10px 20px ;
+}
+
+.p-itemi:hover .p-item2{
+  opacity: 1;
+  height: 100%;
+}
+/* ---new item 3--- */
+.p-itemii{
+  width: 277px;
+  border-radius: 20px;
+  position: relative;
+  
+}
+.p-itemii img{
+  border-radius: 20px;
+  display: block;
+}
+.p-item3{
+  position: absolute;
+  left: 0;
+  top: 0;color: white;
+  background-color: rgba(0, 0, 0, 0.789);
+  width: 0;
+  height: 100%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition:all linear 0.5s;
+  opacity: 0;
+  
+}
+
+.p-item3 h2{
+  color: white;
+  font-size: 25px;
+  font-family: "Ubuntu", sans-serif;
+ padding-bottom: 20px;
+}
+
+.p-item3 a {
+    background-color: rgba(66, 37, 163, 0.891);
+    padding:12px 25px;
+    color: #fff;
+    border-radius: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    transition: ease-in-out .4s;
+}
+.p-item3 a:hover{
+  background-color:rgba(88, 47, 223, 0.891); 
+  padding: 10px 20px ;
+}
+
+.p-itemii:hover .p-item3{
+  opacity: 1;
+  width: 100%;
+}
+/* ---new item 4--- */
+.p-itemiii{
+  width: 277px;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.p-itemiii img{
+  border-radius: 20px;
+  display: block;
+  transition: ease-in-out .6s;
+}
+.p-item4{
+  position: absolute;
+  left: 0;
+  top: 0;color: white;
+  background-color: rgba(0, 0, 0, 0.789);
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition:all linear 0.5s;
+  opacity: 0;
+  
+}
+
+.p-item4 h2{
+  color: white;
+  font-size: 25px;
+  font-family: "Ubuntu", sans-serif;
+ padding-bottom: 20px;
+}
+
+.p-item4 a {
+    background-color: rgba(66, 37, 163, 0.891);
+    padding:12px 25px;
+    color: #fff;
+    border-radius: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    transition: ease-in-out .4s;
+}
+.p-item4 a:hover{
+  background-color:rgba(88, 47, 223, 0.891); 
+  padding: 10px 20px ;
+}
+
+.p-itemiii:hover .p-item4{
+  opacity: 1;
+  
+}
+.p-itemiii:hover img{
+  transform: scale(1.2);
+  
+}
+
+
+/* ---contact css--- */
+  
+ #contact{
+  background-color: #f4f0f097;
+  border-radius: 20px;
+  padding: 40px 0px;
+  margin-bottom: 60px;
+}
+ .contact{
+  display: flex;
+  justify-content: space-evenly;
+  
+ }
+ .map{
+  width: 500px;
+  
+ }
+ 
+ .contact1 h3{
+  color: rgb(9, 9, 9);
+  font-size: 25px;
+ font-family: "Ubuntu", sans-serif;
+ padding-bottom: 20px;
+ width: 500px;
+ }
+ .c-from{
+  width: 500px;
+ }
+
+ .c-from h3{
+  color: rgb(9, 9, 9);
+  font-size: 25px;
+  font-family: "Ubuntu", sans-serif;
+ padding-bottom: 20px;
+ }
+
+ .filed{
+  padding-bottom: 10px;
+ }
+ .filed input, textarea{
+  width: 93.5%;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid rgba(66, 37, 163, 0.891);
+  color:#667;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+ }
+ .filed input:focus{
+  border-color: rgba(66, 37, 163, 0.891);
+ }
+ .filed input::placeholder{
+  font-family: "Ubuntu", sans-serif;
+  color: #666;
+  font-size: 15px;
+ }
+ .filed button{
+background-color: rgba(66, 37, 163, 0.891);
+    padding:12px 45px;
+    color: #fff;
+    border-radius: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    transition: ease-in-out .4s;
+    border: 0;
+    font-size: 15px;
+}
+.filed button:hover{
+  background-color:rgba(66, 37, 163, 0.891); 
+  color: black;
+}
+
+/* ---Footer css--- */
+
+#contact2{
+  background-color: #f4f0f097;
+  border-radius: 20px;
+  padding: 40px 0px;
+}
+
+.footermain{
+  display: flex;
+  justify-content: space-between;
+}
+.footeritem{
+  width: 270px;
+}
+.footeritem img{
+  width: 120px;
+  padding-bottom: 17.5px;
+}
+.footeritem1 h3{
+  color: rgb(9, 9, 9);
+  font-size: 25px;
+  font-family: "Ubuntu", sans-serif;
+ padding-bottom: 20px;
+ }
+
+ .footeritem p{
+  font-family: "Roboto", sans-serif;
+  line-height: 22px;
+  font-size: small;
+  text-align: justify;
+  color: rgb(85, 87, 87);
+}
+ .footeritem1 li{
+  font-family: "Roboto", sans-serif;
+  line-height: 22px;
+  font-size: small;
+  color: rgb(85, 87, 87);
+}
+.footeritem1 li a{
+  color:rgba(66, 37, 163, 0.891) ;
+}
+.footeritem2 h3{
+  color: rgb(9, 9, 9);
+  font-size: 25px;
+  font-family: "Ubuntu", sans-serif;
+ padding-bottom: 20px;
+ }
+.footermenu ul li {
+  color:black;
+  font-weight: 400;
+ font-family: "Roboto", sans-serif;
+}
+.footermenu ul{
+ display: flex;
+ flex-direction:column ;
+ gap: 10px;
+}
+
+.footermenu ul li a{
+  color: #504ab3;
+  font-weight: 600;
+}
+
+.f-social i{
+  height: 40px;
+  width: 40px;
+  background-color:rgba(66, 37, 163, 0.891) ;
+  border-radius:50% ;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+  font-size: 20px;
+  margin-right: 12px;
+
+}
+
